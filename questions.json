@@ -15,7 +15,8 @@
         "text": "Mando"
       }
     ],
-    "correct-answer": "Grogu"
+    "correct-answer": "Grogu",
+    "correct-msg": "Correct! Baby Yoda's real name is Grogu."
   },
   {
     "question": "Where did Obi-Wan take Luke after his birth?",
@@ -33,7 +34,8 @@
         "text": "The Death Star"
       }
     ],
-    "correct-answer": "Tatooine"
+    "correct-answer": "Tatooine",
+    "correct-msg": "Correct! Luke was taken to Tatooine after his birth."
   },
   {
     "question": "Who is Palpatine's granddaughter?",
@@ -51,7 +53,8 @@
         "text": "Jyn"
       }
     ],
-    "correct-answer": "Rey"
+    "correct-answer": "Rey",
+    "correct-msg": "Correct! Rey is Palpatine's granddaughter."
   },
   {
     "question": "In The Lord of the Rings, how many rings of power were there?",
@@ -69,7 +72,8 @@
         "text": "7"
       }
     ],
-    "correct-answer": "9"
+    "correct-answer": "9",
+    "correct-msg": "Correct! There were 9 rings of power."
   },
   {
     "question": "Who was the captain in the first pilot episode of the original Star Trek series?",
@@ -87,7 +91,8 @@
         "text": "James T. Kirk"
       }
     ],
-    "correct-answer": "Christopher Pike"
+    "correct-answer": "Christopher Pike",
+    "correct-msg": "Correct! The original captain in the first pilot was Christopher Pike."
   },
   {
     "question": "In Star Trek: Deep Space Nine, what was the name of the ship under Benjamin Sisko’s command?",
@@ -105,6 +110,7 @@
         "text": "Dominion"
       }
     ],
-    "correct-answer": "Defiant"
+    "correct-answer": "Defiant",
+    "correct-msg": "Correct! Benjamin Sisko's ship was the Defiant."
   }
 ]
