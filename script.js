@@ -15,12 +15,10 @@ $(async function () {
       $(this).text(questions[questionIndex]["answer-choices"][index].text);
     });
 
-    // if (questionIndex < questions.length - 1) {
-      $('#feedback')
-        .text('')
-        .css('background-color', 'transparent')
-        .css('padding', '0');
-    // }
+    $('#feedback')
+      .text('')
+      .css('background-color', 'transparent')
+      .css('padding', '0');
 
     $('.next-question').prop('disabled', true);
 
@@ -37,22 +35,21 @@ $(async function () {
       $('.next-question').prop('disabled', true);
     }
 
-
     $('#options').children().each(function() {
       $(this).prop('disabled', false);
     })
     
   })
 
+
   $('.option').on('click', function () {
-      // Disable all options once one is clicked
       $('.option').prop('disabled', true);
       
       let isCorrect = $(this).text() === questions[questionIndex]["correct-answer"];
 
       if (isCorrect) {
           $('#feedback')
-            .text('Correct! There were 9 rings of power.')
+            .text(`${questions[questionIndex]["correct-msg"]}`)
             .css('color', '#094e09')
             .css('font-weight', '600')
             .css('background-color', 'lightgreen')
