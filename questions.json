@@ -1,0 +1,110 @@
+[
+  {
+    "question": "What is Baby Yoda's real name?",
+    "answer-choices": [
+      {
+        "text": "Niwot"
+      },
+      {
+        "text": "Quasar"
+      },
+      {
+        "text": "Grogu"
+      },
+      {
+        "text": "Mando"
+      }
+    ],
+    "correct-answer": "Grogu"
+  },
+  {
+    "question": "Where did Obi-Wan take Luke after his birth?",
+    "answer-choices": [
+      {
+        "text": "Tatooine"
+      },
+      {
+        "text": "Nabu"
+      },
+      {
+        "text": "Endor"
+      },
+      {
+        "text": "The Death Star"
+      }
+    ],
+    "correct-answer": "Tatooine"
+  },
+  {
+    "question": "Who is Palpatine's granddaughter?",
+    "answer-choices": [
+      {
+        "text": "Leia"
+      },
+      {
+        "text": "Rey"
+      },
+      {
+        "text": "Padme"
+      },
+      {
+        "text": "Jyn"
+      }
+    ],
+    "correct-answer": "Rey"
+  },
+  {
+    "question": "In The Lord of the Rings, how many rings of power were there?",
+    "answer-choices": [
+      {
+        "text": "10"
+      },
+      {
+        "text": "9"
+      },
+      {
+        "text": "13"
+      },
+      {
+        "text": "7"
+      }
+    ],
+    "correct-answer": "9"
+  },
+  {
+    "question": "Who was the captain in the first pilot episode of the original Star Trek series?",
+    "answer-choices": [
+      {
+        "text": "Spock"
+      },
+      {
+        "text": "Jean-Luc Picard"
+      },
+      {
+        "text": "Christopher Pike"
+      },
+      {
+        "text": "James T. Kirk"
+      }
+    ],
+    "correct-answer": "Christopher Pike"
+  },
+  {
+    "question": "In Star Trek: Deep Space Nine, what was the name of the ship under Benjamin Sisko’s command?",
+    "answer-choices": [
+      {
+        "text": "Voyager"
+      },
+      {
+        "text": "Enterprise"
+      },
+      {
+        "text": "Defiant"
+      },
+      {
+        "text": "Dominion"
+      }
+    ],
+    "correct-answer": "Defiant"
+  }
+]

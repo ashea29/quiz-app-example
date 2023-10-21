@@ -7,28 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="quizApp">
-        <article class="title">
+    <div id="quizApp">
+        <div class="title">
             <div class="title__image">
                 <img src="nerd.png" alt="Nerd - brain with glasses">
             </div>
             <h1 class="title__text">Nerd Knowledge</h1>
-        </article>
+        </div>
 
-        <article id="question" class="question">In <span>The Lord of the Rings</span>, how many rings of power were there?</article>
+        <p id="question" class="question"></p>
 
-        <article id="options">
-            <button class="option">10</button>
-            <button class="option">9</button>
-            <button class="option">13</button>
-            <button class="option">7</button>
-        </article>
+        <div id="options">
+            <button class="option"></button>
+            <button class="option"></button>
+            <button class="option"></button>
+            <button class="option"></button>
+        </div>
+        <p id="feedback"></p>
 
-        <article id="feedback"></article>
-
-        <article class="reset">RESET</article>
-    </section>
-
+        <button class="next-question" disabled >NEXT QUESTION</button>
+        <button class="reset" disabled >RESET</button>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 </body>
